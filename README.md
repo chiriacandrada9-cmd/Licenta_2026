@@ -236,8 +236,8 @@ Comunicarea între thread-uri se face prin cozi thread-safe (`queue.Queue`):
 ### 1. Clonare repository
 
 ```bash
-git clone https://github.com/cata2lin/Licenta.git
-cd Licenta
+git clone https://github.com/chiriacandrada9-cmd/Licenta_2026.git
+cd Licenta_2026
 ```
 
 ### 2. Creare mediu virtual
