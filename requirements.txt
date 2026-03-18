@@ -1,0 +1,10 @@
+opencv-python>=4.9
+mediapipe>=0.10
+numpy>=1.26
+pywin32>=306
+sounddevice>=0.4
+webrtcvad-wheels>=2.0.10
+faster-whisper>=1.0
+pystray>=0.19
+Pillow>=10.0
+pyinstaller>=6.0

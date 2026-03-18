@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+logs/
+
+# Build output
+build/dist/
+build/build/
+*.exe
+
+# Pytest
+.pytest_cache/
+
+# Model files (downloaded at runtime)
+assets/*.task
+
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Documents
+documentatie/
+*.docx

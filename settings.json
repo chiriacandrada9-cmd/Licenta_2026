@@ -1,0 +1,60 @@
+{
+  "camera": {
+    "device_index": 0,
+    "width": 640,
+    "height": 480,
+    "fps": 30,
+    "flip_horizontal": true
+  },
+  "hand_tracking": {
+    "max_hands": 1,
+    "detection_confidence": 0.7,
+    "tracking_confidence": 0.7,
+    "smoothing_factor": 0.35,
+    "cursor_speed_multiplier": 1.5,
+    "roi_x_min": 0.12,
+    "roi_x_max": 0.88,
+    "roi_y_min": 0.10,
+    "roi_y_max": 0.90,
+    "one_euro_min_cutoff": 2.5,
+    "one_euro_beta": 0.8
+  },
+  "gestures": {
+    "click_hold_frames": 4,
+    "scroll_sensitivity": 40,
+    "pinch_threshold": 0.05,
+    "pinch_release_threshold": 0.08,
+    "deadzone_radius": 0.003,
+    "stability_frames": 4,
+    "click_cooldown_ms": 300,
+    "finger_hysteresis": 0.04
+  },
+  "voice": {
+    "sample_rate": 16000,
+    "vad_aggressiveness": 2,
+    "silence_duration_ms": 800,
+    "whisper_model": "base",
+    "whisper_language": "ro",
+    "whisper_device": "cpu",
+    "wake_word": null
+  },
+  "window_management": {
+    "excluded_processes": [
+      "explorer.exe"
+    ],
+    "app_aliases": {
+      "chrome": "chrome.exe",
+      "notepad": "notepad.exe",
+      "calculator": "calc.exe",
+      "explorer": "explorer.exe",
+      "terminal": "wt.exe",
+      "paint": "mspaint.exe"
+    }
+  },
+  "app": {
+    "mode": "combined",
+    "show_preview": true,
+    "start_minimized": false,
+    "log_level": "INFO"
+  }
+}
